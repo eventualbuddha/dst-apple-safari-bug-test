@@ -1,0 +1,6 @@
+<script>
+var d1 = new Date("2015-03-08T10:59:44.000Z");
+var d2 = new Date(d1.getTime());
+d1.setHours(d1.getHours());
+alert(d1.getTime() === d2.getTime() ? 'PASS' : 'FAIL');
+</script>
