@@ -9,4 +9,4 @@ d1.setHours(d1.getHours());
 document.write(d1.getTime() === d2.getTime() ? '<h1>PASS</h1>' : '<h1>FAIL</h1>');
 ```
 
-Go to https://eventualbuddha.github.io/dst-apple-safari-bug-test to try it in your browser.
+Go to https://eventualbuddha.github.io/dst-apple-safari-bug-test to try it in your browser. Filed as rdar://20110884.
